@@ -1,0 +1,43 @@
+[
+    {
+        "title": "HTML",
+        "imageSrc": "skills/html.png",
+        "percent": "90"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "skills/css.png",
+        "percent": "80"
+    },
+    {
+        "title": "Bootstrap",
+        "imageSrc": "skills/bootstrap.png",
+        "percent": "40"
+    },
+    {
+        "title": "Javascript",
+        "imageSrc": "skills/javascriptIcon.png",
+        "percent": "90"
+    },
+    {
+        "title": "React",
+        "imageSrc": "skills/react.png",
+        "percent": "70"
+    },
+    {
+        "title": "Node",
+        "imageSrc": "skills/node.png",
+        "percent": "68"
+    },
+    {
+        "title": "MongoDB",
+        "imageSrc": "skills/mongodb.png",
+        "percent": "90"
+    },
+    {
+        "title": "Express",
+        "imageSrc": "skills/express.png",
+        "percent": "90"
+    }
+  
+]

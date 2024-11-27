@@ -1,0 +1,74 @@
+[
+    {
+        "title": "E-Commerce",
+        "imageSrc": "projects/landing.png",
+        "description": "This is my project Lorem ipsum dolor sit amet consectetur.",
+        "skills": [
+            "HTML",
+            "CSS"
+        ],
+        "demo": "https://shivendra-ecommerce.netlify.app",
+        "src": "https://github.com/shivendra404/MovieTicketBooking"
+    },
+    {
+        "title": "Landing Page",
+        "imageSrc": "projects/landing.png",
+        "description": "This is my project Lorem ipsum dolor sit amet consectetur ",
+        "skills": [
+            "HTML",
+            "Bootstrap"
+        ],
+        "demo": "https://shivendra-bootstrap-landingpage.netlify.app",
+        "src": "https://github.com/shivendra404/MovieTicketBooking"
+    },
+    {
+        "title": "Qiuze App",
+        "imageSrc": "projects/landing.png",
+        "description": "This is a quize app. i have use html and css and ",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "demo": "https://shivendra-quizapp.netlify.app",
+        "src": "https://github.com/shivendra404/MovieTicketBooking"
+    },
+    {
+        "title": "TODO List",
+        "imageSrc": "projects/project.png",
+        "description": "This is TODO list project. Using this we can Manage our daily task ",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "demo": "https://shivendra-todo-list.netlify.app",
+        "src": "https://github.com/shivendra404/MovieTicketBooking"
+    },
+    {
+        "title": "React",
+        "imageSrc": "projects/project.png",
+        "description": "This is my project Lorem ipsum dolor sit amet consectetur",
+        "skills": [
+            "HTML",
+            "CSS",
+            "javascript",
+            "react"
+        ],
+        "demo": "https://shivendrarock-paper-scr.netlify.app/",
+        "src": "https://github.com/shivendra404/MovieTicketBooking"
+    },
+    {
+        "title": "Node",
+        "imageSrc": "projects/project.png",
+        "description": "This is my project Lorem ipsum dolor sit amet consectetur",
+        "skills": [
+            "HTML",
+            "CSS",
+            "javascript",
+            "react"
+        ],
+        "demo": "https://shivendrarock-paper-scr.netlify.app/",
+        "src": "https://github.com/shivendra404/MovieTicketBooking"
+    }
+]

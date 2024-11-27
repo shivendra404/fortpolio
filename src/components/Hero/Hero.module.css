@@ -1,0 +1,168 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: space-between;
+    margin: 49px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 400px; */
+    color: var(--color-text);
+    z-index: 1;
+    margin-bottom: 49px;
+
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 800;
+    margin-bottom: 33px;
+    /* font-family: var(--font-roboto); */
+    /* font-family: "Roboto"; */
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 120%);
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.description {
+    font-size: 30px;
+    margin-bottom: 52px;
+
+}
+
+.contactBtn {
+    text-decoration: none;
+    background-color: var(--color-primary);
+    border-radius: 100px;
+    padding: 17px 26px;
+    box-shadow: 0 0 4px 0rgba(0, 0, 0, 0.25);
+}
+
+button {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    border: none;
+}
+
+.contactBtn:hover {
+    background-color: #0056b3;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.myImage {
+    flex-shrink: 0;
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 20px;
+    z-index: 1;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    overflow: hidden;
+
+}
+
+.myImage img {
+    width: 20rem;
+
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 10px);
+    }
+
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+
+.topBlur {
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    min-width: 250px;
+    min-height: 250px;
+    top: -128px;
+    left: 10vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.5);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 40vw;
+    min-width: 250px;
+    min-height: 250px;
+    top: 248px;
+    right: 25vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+@media screen and (max-width :830px) {
+    .container {
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-bottom: 12px;
+    }
+
+    .content {
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+    .title {
+        text-align: center;
+        font-size: 54px;
+        font-weight: 600;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .bottomBlur {
+        top: 300px;
+        right: 25vw;
+    }
+
+    .myImage {
+        width: 15rem;
+        height: 15rem;
+
+    }
+
+}
